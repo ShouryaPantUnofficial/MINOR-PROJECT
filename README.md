@@ -38,5 +38,5 @@
 </ul>
 
 
-### [Click here](https://github.com/ShouryaPantUnofficial/MINOR-PROJECT/models) to view all of ML code required to build this application.
+### [Click here](https://github.com/ShouryaPantUnofficial/MINOR-PROJECT/tree/main/ml%20models) to view all of ML code required to build this application.
 
