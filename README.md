@@ -1,4 +1,4 @@
-# DISPRED PROJECT MADE BY SHOURYA PANT AND TEJAS DWIVEDI
+# DISPRED PROJECT MADE BY SHOURYA PANT(https://github.com/ShouryaPant) AND TEJAS DWIVEDI
 
 <ul>
   <li type = "square">The Project focuses on saving life of peoples , by saving time , human errors and by early prediction of diseases or infection</li>
