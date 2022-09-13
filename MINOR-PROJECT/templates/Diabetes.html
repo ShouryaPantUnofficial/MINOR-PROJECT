@@ -1,0 +1,85 @@
+{% extends "layout.html" %} {% block contents %}
+
+<br>
+<form class="container" action="/DiabetesPrediction" method="POST">
+
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><h2 align="center">Diabetes Predictor</h2></title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+  <script src="https://kit.fontawesome.com/5f3f547070.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+    <body>
+
+        <!-- Website Title -->
+    	<div class="container">
+            <h2 class='container-heading'><span class="heading_font">Diabetes Predictor</span></h2>
+            <div class='description'>
+    			<p>A Machine Learning Web App, Built with Flask, Deployed using Heroku.</p>
+                <p>(Note:This model is 85.33% accurate)</p>
+    		</div>
+    	</div>
+
+        <!-- Text Area -->
+    	<div class="ml-container">
+    		<form action="{{ url_for('Diabetes_prediction') }}" method="POST">
+
+                
+                <br><label  for ="Pregnancies">Pregnancies</label>
+                <input class="form-input" type="text" name="pregnancies" placeholder="Number of Pregnancies eg. 0"><br>
+                
+                <label  for ="Glucose">Glucose</label>
+                <input class="form-input" type="text" name="glucose" placeholder="Glucose (mg/dL) eg. 80"><br>
+                
+                <label  for ="Blood Pressure">Blood Pressure</label>
+                <input class="form-input" type="text" name="bloodpressure" placeholder="Blood Pressure (mmHg) eg. 80"><br>
+                
+                <label  for ="Skin Thickness">Skin Thickness</label>
+                <input class="form-input" type="text" name="skinthickness" placeholder="Skin Thickness (mm) eg. 20"><br>
+                
+                <label  for ="Insulin">Insulin</label>
+                <input class="form-input" type="text" name="insulin" placeholder="Insulin Level (IU/mL) eg. 80"><br>
+                
+                <label  for ="BMI">BMI</label>
+                <input class="form-input" type="text" name="bmi" placeholder="Body Mass Index (kg/m²) eg. 23.1"><br>
+                
+                <label  for ="DPF">DPF</label>
+                <input class="form-input" type="text" name="dpf" placeholder="Diabetes Pedigree Function eg. 0.52"><br>
+                
+                <label  for ="Age">age</label>
+                <input class="form-input" type="text" name="age" placeholder="Age (years) eg. 34"><br>
+
+        		<input type="submit" class="my-cta-button" value="Predict">
+        	</form>
+    	</div>
+    </form>
+
+ 
+  <!-- Footer -->
+  <br>
+ <br>
+ <br>
+ <div class="footer">
+  <div class='footer'>
+    <div class="text-center">
+
+    <div class="contact">
+      <a target="_blank" href="https://github.com/ShouryaPantUnofficial/MINOR-PROJECT/blob/main/README.md"><img src="https://img.icons8.com/material-sharp/30/000000/github.png" /> 
+      <a target="_blank" href="https://www.facebook.com/CodeGladiators"><img src="https://img.icons8.com/fluency/48/000000/facebook-new.png"/>
+    </div>
+    <p class='footer-description'>Made by Shourya Pant, Tejas Dwivedi, Ujala Varshney and Shanu.</p>
+  </div>
+</div>
+</div>
+
+</body>
+
+</html>
+{% endblock contents%}
