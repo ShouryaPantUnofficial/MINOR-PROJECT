@@ -1,4 +1,4 @@
-# Impulse101-LifeSaviour
+# DISPRED
 
 <ul>
   <li type = "square">The Project focuses on saving life of peoples , by saving time , human errors and by early prediction of diseases or infection</li>
@@ -33,6 +33,8 @@
 <li><ul>
 <li type = "disc" >CHRONIC KIDNEY DISEASE</li>
 <li type = "disc">HEART DISEASE</li>
+<li type = "disc">DIABETES PREDICTION</li>
+<li type = "disc">COVID 19</li>
 </ul></li>
 
 </ul>
